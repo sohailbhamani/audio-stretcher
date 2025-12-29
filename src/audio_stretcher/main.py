@@ -4,8 +4,8 @@ import sys
 from pathlib import Path
 
 import click
-import soundfile as sf
 import pyrubberband as pyrb
+import soundfile as sf
 
 # Configure logging to stderr
 logging.basicConfig(level=logging.INFO, stream=sys.stderr, format="%(message)s")
