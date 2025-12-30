@@ -1,13 +1,10 @@
-"""Parameterized time stretching tests."""
-
 import json
-
 import shutil
 import subprocess
 import sys
 
 import pytest
-import soundfile as sf
+from soundfile import read
 
 
 def run_stretcher(file_path, ratio, output_path):
@@ -50,7 +47,7 @@ class TestStretchingAccuracy:
         data = json.loads(result.stdout)
         assert data["success"] is True
 
-        y, sr = sf.read(temp_output_path)
+        y, sr = read(temp_output_path)
         duration = len(y) / sr
 
         # 5% tolerance
