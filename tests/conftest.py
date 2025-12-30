@@ -1,5 +1,3 @@
-"""Shared test fixtures for audio-stretcher tests."""
-
 import os
 import tempfile
 
