@@ -1,13 +1,12 @@
 import json
-import os
 import shutil
 import subprocess
 import sys
 import tempfile
+import os
 
-import numpy as np
-import pytest
 import soundfile as sf
+import pytest
 
 SAMPLE_RATE = 44100
 
