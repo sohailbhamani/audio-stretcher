@@ -2,6 +2,13 @@
 
 
 
+## v0.0.1 (2025-12-30)
+
+### Fix
+
+* fix: initial release bump to 0.0.1 ([`c50668c`](https://github.com/sohailbhamani/audio-stretcher/commit/c50668c011da9a75a9f8f6c1d394d413ac542687))
+
+
 ## v0.0.0 (2025-12-30)
 
 ### Chore
