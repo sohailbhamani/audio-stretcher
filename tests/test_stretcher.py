@@ -6,7 +6,7 @@ import sys
 import tempfile
 
 import pytest
-import soundfile as sf
+from soundfile import read
 
 
 def run_stretcher(file_path, ratio, output_path):
@@ -42,7 +42,7 @@ def test_stretch_ratio(test_audio_file):
         assert data["success"] is True
 
         # Check output duration
-        y, sr = sf.read(output_path)
+        y, sr = read(output_path)
         duration = len(y) / sr
 
         # Expect approx 2.5s
