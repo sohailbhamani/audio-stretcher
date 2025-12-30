@@ -27,3 +27,13 @@ def test_audio_file():
 
     if os.path.exists(path):
         os.remove(path)
+
+
+@pytest.fixture
+def temp_output_path():
+    """Create a temporary output file path."""
+    fd, path = tempfile.mkstemp(suffix="_out.wav")
+    os.close(fd)
+    yield path
+    if os.path.exists(path):
+        os.remove(path)
