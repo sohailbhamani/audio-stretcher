@@ -2,6 +2,13 @@
 
 
 
+## v0.0.2 (2026-01-02)
+
+### Fix
+
+* fix(ci): use RELEASE_TOKEN for semantic-release bypass ([`6fe8f8c`](https://github.com/sohailbhamani/audio-stretcher/commit/6fe8f8c5be7897958d6a30f3ec8e1385e7e49281))
+
+
 ## v0.0.1 (2025-12-30)
 
 ### Fix
