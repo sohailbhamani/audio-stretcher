@@ -103,7 +103,7 @@ Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.githu
 
 ---------
 
-Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`06ab18e`](https://github.com/sohailbhamani/audio-stretcher/commit/06ab18ebdba75f3123c46b6a60786fd6dd454e20))
+Co-authored-by: Sohail &lt;sohailbhamani@users.noreply.github.com&gt; ([`06ab18e`](https://github.com/sohailbhamani/audio-stretcher/commit/06ab18ebdba75f3123c46b6a60786fd6dd454e20))
 
 * chore: add OSS files (README, CONTRIBUTING, CODE_OF_CONDUCT, templates) ([`deb7407`](https://github.com/sohailbhamani/audio-stretcher/commit/deb74070403b299ec1f2cd5222e335fd14bb61b1))
 
@@ -139,7 +139,7 @@ Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`06ab18e`](https://github.co
 
 ---------
 
-Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`29eb20c`](https://github.com/sohailbhamani/audio-stretcher/commit/29eb20c4a2d137eda28d6dff7d87c3994c0ccb8a))
+Co-authored-by: Sohail &lt;sohailbhamani@users.noreply.github.com&gt; ([`29eb20c`](https://github.com/sohailbhamani/audio-stretcher/commit/29eb20c4a2d137eda28d6dff7d87c3994c0ccb8a))
 
 ### Unknown
 
